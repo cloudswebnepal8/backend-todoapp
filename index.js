@@ -9,7 +9,7 @@ const app = express()
 connectDB()
 
 app.use(cors({
-    origin: "https://todo-web-three-chi.vercel.app"
+    origin: "https://todos-frontends.vercel.app"
 
 }))
 
