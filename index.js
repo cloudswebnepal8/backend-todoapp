@@ -15,7 +15,7 @@ app.use(cors({
 
 app.use(express.json())
 
-app.get("/", (req, res) => {
+app.get("/hi", (req, res) => {
     console.log("Hello from server.");
     res.send("Hello from server.");
 });
